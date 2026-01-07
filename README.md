@@ -54,6 +54,21 @@ Programs using Python dictionaries.
 - `merge_two_dicts.py`
 - `student_topper.py`
 
+### 🔹 loops
+
+Programs that use for and while loops.
+
+-`factorial_of_number.py`
+-`prime_number_check.py`
+-`count_upper_lowercase_letters.py`
+-`remove_vowels_from_string.py`
+-`words_longer_than_five.py`
+-`common_elements_in_lists.py`
+-`rotate_list_by_n_positions.py`
+-`Fibonacci_series.py`
+-`Find_word_longer_then_5`
+
+
 ---
 
 ## 🎯 Purpose of This Repository
