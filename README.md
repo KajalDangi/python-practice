@@ -69,17 +69,14 @@ Programs that use for and while loops.
 - `Find_word_longer_then_5`
 
 
-## 🏧 ATM Program (Python)
+### 🔹 Mini Projects
+- ~`ATM Program`
+- `Password Validator`
+- `Contact Book`
+- `Shopping Cart`
+ 
 
-A simple console-based ATM program that includes:
-✔ PIN authentication  
-✔ Withdraw money  
-✔ Deposit money  
-✔ Balance checking  
-✔ Error handling  
-✔ Secure login attempts  
 
-File: atm_program.py
 
 
 ---
