@@ -1,100 +1,124 @@
-# Python Practice Programs 🐍
+# Python Practice Repository
 
-This repository contains my Python practice programs.  
-I am learning Python step–by–step and organizing my code into different topics such as basics, conditions, strings, lists, sets, and dictionaries.
-
----
-
-## 📂 Folder Structure
-
-### 🔹 basics
-Programs that cover basic Python concepts.
-- `basic_math_operations.py`
-- `personalized_greeting.py`
+## Overview
+This repository showcases my Python learning journey through structured practice programs and mini projects.  
+It reflects my understanding of Python fundamentals, problem-solving skills, and ability to organize code in a clean and maintainable way.
 
 ---
 
-### 🔹 conditions
-Programs using conditional statements (`if`, `elif`, `else`).
-- `check_leap_year.py`
-- `check_positive_negative_zero.py`
-- `check_vowel_or_consonant.py`
-- `grade_calculator.py`
+## Skills Demonstrated
+- **Python fundamentals and syntax**
+- **Conditional logic and loops**
+- **Functions and recursion**
+- **Lists, strings, sets, and dictionaries**
+- **Input validation and error handling**
+- **Modular programming**
+- **Logical thinking and problem solving**
 
 ---
 
-### 🔹 strings
-Programs that work with string manipulation.
-- `check_palindrome.py`
-- `count_vowels.py`
-- `replace_spaces_with_underscores.py`
-- `reverse_string.py`
-- `string_case_conversion.py`
+## Project Structure
+
+### Basics
+Programs covering:
+- Input / Output
+- Arithmetic operations
+- Basic Python syntax
+
+### Conditions
+Programs using decision-making logic:
+- Leap year checker
+- Positive / Negative / Zero checker
+- Vowel or consonant checker
+- Grade calculation
+
+### Loops
+Programs focused on iteration and logic:
+- Factorial of a number
+- Fibonacci series
+- Prime number check
+- Sum of natural numbers
+- Multiplication table
+- Rotate a list by N positions
+- Word filtering using conditions
+
+### Strings
+Programs involving string manipulation:
+- Remove vowels from a string
+- Count uppercase and lowercase letters
+- Word frequency counter
+
+### Lists
+Programs demonstrating list operations:
+- Finding common elements
+- List rotation
+- List traversal and manipulation
+
+### Dictionaries
+Programs based on key–value data structures:
+- Word frequency counter
+- Contact storage and retrieval
+
+### Sets
+Programs demonstrating:
+- Duplicate removal
+- Common element detection
+- Set operations
+
+### Functions
+Programs using:
+- User-defined functions
+- Return values
+- Default arguments
+- Variable length arguments (`*args`, `**kwargs`)
+- Recursive functions
+- Local and global variables
+
+Examples:
+- Even/Odd checker
+- Maximum of three numbers
+- Area of a circle
+- Factorial using recursion
+- Student information system
 
 ---
 
-### 🔹 lists
-Programs that work with Python lists.
-- `even_odd_counter.py`
-- `max_min_from_input.py`
-- `remove_duplicates.py`
-- `reverse_list_using_swap.py`
+## Mini Projects
+
+Located in the `mini_pro_programs` folder:
+
+- **ATM System** (basic and function-based)
+- **Number Guessing Game**
+- **Password Validator**
+- **Shopping Cart System**
+- **Simple Contact Book**
+- **Contact Book using Functions**
+- **Student Mark Management System**
+- **Anagram Checker**
+
+Each project focuses on combining multiple Python concepts into real-world logic.
 
 ---
 
-### 🔹 sets
-Programs related to Python sets.
-- `list_to_set_back_to_list.py`
+## Learning Outcome
+- Strengthened core Python concepts
+- Improved logical thinking and debugging skills
+- Learned to structure projects professionally
+- Built confidence in writing reusable and readable code
 
 ---
 
-### 🔹 dictionaries
-Programs using Python dictionaries.
-- `char_frequency.py`
-- `merge_two_dicts.py`
-- `student_topper.py`
-
-### 🔹 loops
-
-Programs that use for and while loops.
-
-- `factorial_of_number.py`
-- `prime_number_check.py`
-- `count_upper_lowercase_letters.py`
-- `remove_vowels_from_string.py`
-- `words_longer_than_five.py`
-- `common_elements_in_lists.py`
-- `rotate_list_by_n_positions.py`
-- `Fibonacci_series.py`
-- `Find_word_longer_then_5`
-
-
-### 🔹 Mini Projects
-- ~`ATM Program`
-- `Password Validator`
-- `Contact Book`
-- `Shopping Cart`
- 
-
-
-
+## Future Scope
+- File handling
+- Exception handling (advanced)
+- Object-Oriented Programming (OOP)
+- Data structures and algorithms
+- Small automation projects
 
 ---
 
-## 🎯 Purpose of This Repository
+## Author
+**Kajal**  
+Python Learner
 
-✔ Practice Python programming  
-✔ Build logic and problem-solving skills  
-✔ Organize and track my learning progress  
-✔ Share my learning journey publicly  
 
----
-
-## 🛠 Requirements
-
-- Python 3.x
-
-Run any file using:
-
-```bash
-python filename.py
