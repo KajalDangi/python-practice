@@ -118,7 +118,7 @@ Each project focuses on combining multiple Python concepts into real-world logic
 ---
 
 ## Author
-**Kajal**  
+**Kajal Dangi**  
 Python Learner
 
 
