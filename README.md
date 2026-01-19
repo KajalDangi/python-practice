@@ -13,18 +13,38 @@ The goal of this repository is to:
 ---
 
 ## 📂 Repository Structure
-PythonProject/
-│
-├── conditions/
-├── dictionaries/
-├── file_and_exception_handle/
-├── functions/
-├── lists/
-├── loops/
-├── mini_pro_programs/
-├── sets/
-├── strings/
-└── README.md
+
+
+- **conditions**
+  - Programs based on conditional statements
+
+- **dictionaries**
+  - Dictionary-based problem solving programs
+
+- **file_and_exception_handle**
+  - File handling and exception handling practice programs
+
+- **functions**
+  - Programs focused on user-defined functions and arguments
+
+- **lists**
+  - List operations and problem-solving programs
+
+- **loops**
+  - Loop-based programs and logical iterations
+
+- **mini_pro_programs**
+  - Mini projects combining multiple Python concepts
+
+- **sets**
+  - Set operations and conversions
+
+- **strings**
+  - String manipulation and validation programs
+
+- **README.md**
+  - Main repository documentation
+
 
 
 Each folder focuses on **one core Python concept** and contains multiple practice programs.
