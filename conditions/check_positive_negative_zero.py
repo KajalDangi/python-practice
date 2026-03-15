@@ -1,8 +1,23 @@
-number = int(input("Enter the number: "))
+def number_type(n):
+    if n > 0:
+        return "positive"
+    elif n < 0:
+        return "negative"
+    return "zero"
 
-if number == 0:
-    print("It is zero")
-elif number > 0:
-    print("It is positive")
-else:
-    print("It is negative")
+
+def main():
+    try:
+        n = int(input("Enter the number: "))
+        result = number_type(n)
+
+        if result == "zero":
+            print("Zero is neither positive nor negative.")
+        else:
+            print(f"{n} is a {result} number.")
+
+    except ValueError:
+        print("Please enter a valid integer.")
+
+
+main()

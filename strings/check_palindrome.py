@@ -1,6 +1,6 @@
-given_string = input("Specify a string to check: ").lower()
+given_string = input("Enter the string: ").lower().replace(" ", "")
 
 if given_string == given_string[::-1]:
-    print("Yes, it is a palindrome")
+    print("It is a palindrome")
 else:
-    print("It is not a palindrome")
+    print("No")
