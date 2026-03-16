@@ -1,5 +1,11 @@
 ch = input("Enter a character: ")
-if ch in "AEIOUaeiou":
-    print(f"{ch} is a vowel")
+
+if len(ch) == 1 and ch.isalpha():
+    ch = ch.lower()
+
+    if ch in "aeiou":
+        print(f"{ch} is a vowel")
+    else:
+        print(f"{ch} is a consonant")
 else:
-    print(f"{ch} is a consonant")
+    print("Please enter a single alphabet character.")
