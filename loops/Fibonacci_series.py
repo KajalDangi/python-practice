@@ -1,15 +1,28 @@
-#Fibonacci series up to N terms. (0, 1, 1, 2, 3, 5, 8, 13, ...)
-n = int(input("Enter the number of terms: "))
+def generate_fibonacci(n):
+    """Generate Fibonacci series up to n terms."""
+    series = []
 
-if n <= 0:
-    print("Please enter a positive number.")
-else:
-    fib = []
     for i in range(n):
-        if i == 0:
-            fib.append(0)
-        elif i == 1:
-            fib.append(1)
+        if i < 2:
+            series.append(i)
         else:
-            fib.append(fib[i-1] + fib[i-2])
-    print(fib)
+            series.append(series[i - 1] + series[i - 2])
+
+    return series
+
+
+def main():
+    try:
+        n = int(input("Enter the number of terms: "))
+
+        if n <= 0:
+            print("Terms must be positive.")
+        else:
+            print(generate_fibonacci(n))
+
+    except ValueError:
+        print("Please enter a valid integer.")
+
+
+if __name__ == "__main__":
+    main()
