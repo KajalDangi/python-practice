@@ -1,12 +1,23 @@
-#Word Frequency Counter
+"""
+Program: Word Frequency Counter
+"""
 
-sentence = input("Enter a sentence: ").split()
-book = {}
+def word_frequency(word_list):
 
-for word in sentence:
-    if word in book:
-        book[word] += 1
-    else:
-        book[word] = 1
+    word_freq = {}
 
-print(book)
+    for word in word_list:
+        word = word.lower()
+        word_freq[word] = word_freq.get(word, 0) + 1
+
+    return word_freq
+
+
+def main():
+    sentence = input("Enter a sentence: ")
+    words = sentence.split()
+    print(word_frequency(words))
+
+
+if __name__ == "__main__":
+    main()

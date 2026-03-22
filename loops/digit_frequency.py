@@ -13,3 +13,7 @@ def main():
         print(digit_frequency(number))
     except ValueError:
         print("Please enter valid integral value.")
+
+
+if __name__ == "__main__":
+    main()

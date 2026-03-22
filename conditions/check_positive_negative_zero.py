@@ -20,4 +20,6 @@ def main():
         print("Please enter a valid integer.")
 
 
-main()
+
+if __name__ == "__main__":
+    main()

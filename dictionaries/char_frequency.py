@@ -1,10 +1,21 @@
-sentence = input("Enter a sentence: ").lower()
-d = {}
+"""
+Program: Character Frequency Counter
+"""
 
-for ch in sentence:
-    if ch in d:
-        d[ch] += 1
-    else:
-        d[ch] = 1
+def char_frequency(text):
 
-print(d)
+    char_freq = {}
+
+    for ch in text.lower():
+        char_freq[ch] = char_freq.get(ch, 0) + 1
+
+    return char_freq
+
+
+def main():
+    sentence = input("Enter a sentence: ")
+    print(char_frequency(sentence))
+
+
+if __name__ == "__main__":
+    main()
