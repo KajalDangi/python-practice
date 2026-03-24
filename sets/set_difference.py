@@ -1,5 +1,5 @@
 """
-Program: Set Difference
+Program:  Set Difference
 
 Description:
 This program computes the difference between two sets.

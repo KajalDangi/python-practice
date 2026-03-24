@@ -1,6 +1,5 @@
 """
 Program: Set Union
-
 """
 
 def set_union(set1, set2):

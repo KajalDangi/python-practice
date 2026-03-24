@@ -1,5 +1,5 @@
 def has_common_elements(list1, list2):
-    """Return True if two lists share at least one common element."""
+    """Return True if two lists share at least one common element ."""
     return not set(list1).isdisjoint(list2)
 
 
