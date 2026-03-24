@@ -1,5 +1,14 @@
-def is_common(l1,l2):
-    returnset(l1).intersection(set(l2))
+def has_common_elements(list1, list2):
+    """Return True if two lists share at least one common element."""
+    return not set(list1).isdisjoint(list2)
 
-list1=[1,2,3,4,5,6,7]
-list2=[6,7,7,8,9,10]
+
+def main():
+    list1 = [1, 2, 3, 4, 5, 6, 7]
+    list2 = [1]
+
+    print(has_common_elements(list1, list2))
+
+
+if __name__ == "__main__":
+    main()
